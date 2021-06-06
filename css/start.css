@@ -1,0 +1,53 @@
+/*** Hero image ***/
+
+.hero-img-container {
+    flex: 1;
+}
+
+.hero-img {
+    flex: 1;
+
+    background-image: url("../images/foto/centra_parks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.title-container {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: #FFC301;
+}
+
+.text1 {
+    font-family: "Itim";
+    font-size: 60px;
+}
+
+.text2 {
+    font-family: "Itim";
+    font-size: 30px;
+}
+
+.start-btn {
+    font-family: "Itim";
+    border: none;
+    border-radius: 5px;
+    padding: 8px 30px;
+    font-size: 20px;
+    background-color: #FFC301;
+    color: #005249;
+
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-127%);
+}
+
+.start-btn:hover {
+    cursor: pointer;
+}

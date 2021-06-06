@@ -4,26 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/start.css">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <div class="logo-container">
-            <img src="./images/logo.png" alt="">
-        </div>
-        <div class="menu-items-container">
-            <a href="./index.html">Sākums</a>
-            <a href="./pages/nepabeigta_maja.html">Nepabeigtā māja</a>
-            <a href="./pages/akropole.html">Akropole</a>
-            <a href="./pages/mols.html">Mols</a>
-            <a href="./pages/maneza.html">Sporta Manēža</a>
-            <a href="./pages/piemineklis.html">Brīvības piemineklis</a>
-            <a href="./pages/abele.html">Purpura ābele</a>
-            <a href="./pages/universitate.html">Latvijas Universitāte</a>
+    <div class="top-section">
+        <nav>
+            <div class="logo-container">
+                <img src="./images/logo.png" alt="ĒŽ logo">
+            </div>
+            <div class="menu-items-container">
+                <div>
+                    <a href="./index.html">Sākums</a>
+                    <div class="line active-line"></div>
+                </div>
+                <div>
+                    <a href="./pages/nepabeigta_maja.html">Nepabeigtā māja</a>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <a href="./pages/akropole.html">Akropole</a>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <a href="./pages/mols.html">Mols</a>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <a href="./pages/maneza.html">Sporta Manēža</a>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <a href="./pages/piemineklis.html">Brīvības piemineklis</a>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <a href="./pages/abele.html">Purpura ābele</a>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <a href="./pages/universitate.html">Latvijas Universitāte</a>
+                    <div class="line"></div>
+                </div>
 
-            <a href="./index_en.html" class="lang-button">EN</a>
+                <a href="./index_en.html" id="lang-button">EN</a>
+            </div>
+        </nav>
+        <div class="hero-img">
+            <div class="title-container">
+                <div class="text1">Mans ceļš</div>
+                <div class="text2">no mājām</div>
+                <div class="text2">uz universitāti</div>
+            </div>
+            <button class="start-btn" onclick="location='./pages/nepabeigta_maja.html'">Sākt</button>
         </div>
-    </nav>
+    </div>
 </body>
 </html>
