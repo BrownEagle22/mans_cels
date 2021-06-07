@@ -37,7 +37,7 @@
     font-family: "Itim";
     border: none;
     border-radius: 5px;
-    padding: 8px 30px;
+    padding: 8px 50px;
     font-size: 20px;
     background-color: #FFC301;
     color: #005249;
@@ -45,9 +45,26 @@
     position: absolute;
     bottom: 20px;
     left: 50%;
-    transform: translateX(-127%);
+    transform: translateX(-90%);
 }
 
 .start-btn:hover {
     cursor: pointer;
+}
+
+/***** MEDIA QUERIES *****/
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 1200px) {
+    .text1 {
+        font-size: 48px;
+    }
+    
+    .text2 {
+        font-size: 25px;
+    }
+
+    .start-btn {
+        transform: translateX(-50%);
+    }
 }

@@ -35,8 +35,72 @@ body {
 
 /*** NAVIGATION ***/
 
+/* menu btn for mobile */
+.menu-button {
+    display: none;  /* display only in mobile mode */
+    padding: 20px;
+}
+
+.menu-button img {
+    display: block;
+}
+
+/* menu for mobile */
+#menu-mobile {
+    display: block;  /* display only in mobile mode */
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(255, 195, 1, 0.95);
+}
+
+#lang-button-mobile {
+    color: #AD9261;
+    font-size: 16px;
+}
+
+.top-btns {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.top-btns * {
+    display: block;
+}
+
+.top-btns a {
+    text-align: right;
+    padding-right: 10px;
+    
+    text-decoration: none;
+}
+
+.menu-items-mobile > div {
+    position: relative;
+    display: block;
+    padding: 0 60px;
+    text-align: center;
+}
+
+.menu-items-mobile a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 15px 0;
+    border-bottom: 1px solid #AD9261;
+}
+
+.menu-items-mobile div:last-child a {
+    border-bottom: none;
+}
+
+/* menu */
 nav {
     display: flex;
+    position: relative;
     background-color: #FFC301;
     align-items: center;
 }
@@ -90,4 +154,25 @@ nav {
 
 .menu-items-container > div:hover .line {
     display: block;
+}
+
+/***** MEDIA QUERIES *****/
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 1200px) {
+    .logo-container {
+        margin: 0 auto;
+    }
+
+    .menu-items-container {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+        position: absolute;
+
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
