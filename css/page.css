@@ -1,0 +1,91 @@
+.nepabeigta-maja {
+    background-image: url("../images/foto/nepabeigta_maja.jpg");
+}
+
+.hero-img {
+    position: relative;
+    flex: 1;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: center;
+}
+
+.title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 5px;
+    background-color: #FFC301;
+
+    font-size: 25px;
+    padding: 5px 25px;
+}
+
+.path-container {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/**** ARTICLE ****/
+
+article {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+article p {
+    font-family: "Itim";
+    size: 16px;
+}
+
+.top-left-corner {
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    width: 56px;
+}
+
+.bottom-right-corner {
+    position: absolute;
+    bottom: -40px;
+    right: -30px;
+    width: 30px;
+}
+
+/**** NEXT PREV BUTTONS ****/
+
+.next-prev-container {
+    display: flex;
+    padding: 30px 80px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.next-container, .prev-container {
+    display: block;
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    color: #005249;
+}
+
+.next-container {
+    text-align: right;
+}
+
+.next-container span {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.prev-container span {
+    padding-left: 10px;
+}
