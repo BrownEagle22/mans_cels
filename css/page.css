@@ -1,13 +1,40 @@
+/**** IMAGES ****/
 .nepabeigta-maja {
     background-image: url("../images/foto/nepabeigta_maja.jpg");
 }
 
+.abele {
+    background-image: url("../images/foto/abele.jpg");
+}
+
+.akropole {
+    background-image: url("../images/foto/akropole.jpg");
+}
+
+.mols {
+    background-image: url("../images/foto/mols.jpg");
+}
+
+.maneza {
+    background-image: url("../images/foto/maneza.jpg");
+}
+
+.piemineklis {
+    background-image: url("../images/foto/piemineklis.jpg");
+}
+
+.universitate {
+    background-image: url("../images/foto/universitate.jpg");
+}
+
+/**** HERO + PATH ****/
 .hero-img {
     position: relative;
     flex: 1;
 
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-position-y: center; */
     background-position-y: top;
     background-position-x: center;
 }
@@ -52,7 +79,7 @@ article p {
 
 .bottom-right-corner {
     position: absolute;
-    bottom: -40px;
+    bottom: -20px;
     right: -30px;
     width: 30px;
 }
@@ -88,4 +115,12 @@ article p {
 
 .prev-container span {
     padding-left: 10px;
+}
+
+/**** FOOTER ****/
+footer {
+    background-color: #AD9261;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 12px;
 }
