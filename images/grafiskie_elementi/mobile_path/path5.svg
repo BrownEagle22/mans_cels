@@ -5,7 +5,7 @@
 <circle cx="88" cy="13" r="4" fill="#AD9261"/>
 <circle cx="124" cy="13" r="4" fill="#AD9261"/>
 <circle cx="159" cy="13" r="4" fill="#AD9261"/>
-<ellipse cx="197.5" cy="13" rx="3.5" ry="4" fill="#AD9261"/>
+<circle cx="196" cy="13" r="4" fill="#AD9261"/>
 <circle cx="233" cy="12" r="7" fill="#AD9261"/>
 <line x1="3" y1="12.5" x2="229" y2="12.5" stroke="#AD9261" stroke-dasharray="2 2"/>
 </svg>

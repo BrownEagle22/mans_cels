@@ -14,9 +14,20 @@
     background-position-x: center;
 }
 
+.hero-img-mobile {
+    display: none;  /* show only for mobile */
+    flex: 1;
+
+    background-image: url("../images/foto/centra_parks_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
 .title-container {
     position: absolute;
-    bottom: 80px;
+    bottom: 150px;
     left: 50%;
     transform: translateX(-50%);
 
@@ -43,7 +54,7 @@
     color: #005249;
 
     position: absolute;
-    bottom: 20px;
+    bottom: 90px;
     left: 50%;
     transform: translateX(-90%);
 }
@@ -54,7 +65,6 @@
 
 /***** MEDIA QUERIES *****/
 
-/* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (max-width: 1200px) {
     .text1 {
         font-size: 48px;
@@ -66,5 +76,15 @@
 
     .start-btn {
         transform: translateX(-50%);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hero-img {
+        display: none;
+    }
+
+    .hero-img-mobile {
+        display: block;
     }
 }
