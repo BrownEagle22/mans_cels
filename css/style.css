@@ -48,7 +48,7 @@ body {
 /* menu for mobile */
 #menu-mobile {
     display: none;  /* display only in mobile mode */
-    position: absolute;
+    position: fixed;
     top: 0;
     min-height: 100%;
     width: 100%;
@@ -89,7 +89,7 @@ body {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    padding: 30px 0;
+    padding: 20px 0;
     border-bottom: 1px solid #AD9261;
 }
 
@@ -103,6 +103,10 @@ nav {
     position: relative;
     background-color: #FFC301;
     align-items: center;
+}
+
+.logo-container a {
+    display: block;
 }
 
 .logo-container img {
